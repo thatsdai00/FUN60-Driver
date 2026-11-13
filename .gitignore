@@ -1,0 +1,13 @@
+# Separate project (Razer mouse driver) and local tooling
+/razer/
+/.claude/
+/.wrangler/
+node_modules/
+
+# Source assets that are not ours to redistribute
+/assets-src/
+# Third-party switch model with an unverified licence: the app falls back to its
+# own procedural switch when this folder is missing.
+/public/models/
+
+*.log

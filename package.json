@@ -1,0 +1,10 @@
+{
+  "name": "fun60-driver",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "deploy": "npx wrangler@4 deploy",
+    "check": "node --check public/js/main.js"
+  }
+}

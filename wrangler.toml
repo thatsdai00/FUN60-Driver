@@ -1,0 +1,9 @@
+# Static-assets Worker. Fits the free plan: no Worker script runs per request,
+# Cloudflare serves files from ./public directly from the edge cache.
+name = "app"
+workers_dev = true
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
